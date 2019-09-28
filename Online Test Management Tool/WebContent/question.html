@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="ISO-8859-1">
+<title>Question</title>
+<link rel="stylesheet" type="text/css" href="Home.css">
+</head>
+
+<script>
+function clickAlert(){
+	alert("Added successfully!");
+}
+</script>
+<body>
+
+<label>Your Question:</label><br>
+<br>
+<br>
+<input type="text" name="question" class="text" placeholder="Type your question here" style="width: 420px;"><br>
+       <br>               
+<label>Options1</label>
+<input type="text" name="opt1" placeholder="First Option" style="width: 130px;" ><br>
+<label>Options2</label>
+<input type="text" name="opt2" placeholder="Second Option" style="width: 130px;" ><br>
+<label>Options3</label>
+<input type="text" name="opt3" placeholder="Third Option" style="width: 130px;" ><br>
+<label>Options4</label>
+<input type="text" name="opt4" placeholder="Fourth Option" style="width: 130px;" ><br>
+<br>
+<label>Correct Answer</label><br>
+<input type="text" name="correct" class="text" placeholder="Correct Answer" style="width: 130px;" >
+ <input type="hidden" name="page" value="questions">
+  <input type="hidden" name="operation" value="addnew">
+ <button onclick="clickAlert()">Submit</button>
+
+</body>
+</html>

@@ -17,18 +17,14 @@
 					</h2>
 					<div class="left-menu">
 						<a  href="profile.html"><h2>Profile</h2></a>
-						<a href=""><h2>Exams</h2></a>
-						<a  href=""><h2>Results</h2></a>
+						<a href="course.html"><h2>Exams</h2></a>
+						<a  href="result.html"><h2>Results</h2></a>
 					</div>
 				</div>
 		
                        </div>
               
-           
-          
-      
-             
-
+        
 </body>
 </html>
 
