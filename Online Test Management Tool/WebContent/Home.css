@@ -2,7 +2,7 @@
 body{
 	margin:0;
 	padding:0;
-	background-color:blue;
+	background:hsl(240,40%,60%);
 	text-align:center;
 }
 .admin{
@@ -24,4 +24,21 @@ body{
 	border-radius:5px;
 	background:violet;
 	text-align:center;
+}
+.aaa{
+	width:300px;
+	boxshadow:0 0 3px 0 rgpa(0,0,0,0.3);
+	backgroung:#fff;
+	padding:20px;
+	margin:8% auto 0;
+	text-align:center;
+}
+.ibox{
+	 width:100%;
+    padding:10px;
+	border-radius:20px;
+	background:white;
+	margin:10px 0;
+	border:1px solid #999;
+	outline:none;
 }
